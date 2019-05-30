@@ -5,7 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 
 
-//@EnableEurekaClient
+@EnableEurekaClient
 @SpringBootApplication
 public class MailmanagementServiceApplication {
 
