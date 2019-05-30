@@ -1,0 +1,29 @@
+management:
+  security:
+    enabled: true
+  
+  
+spring:
+ # application: 
+ #  name: authentication-service
+  resources:
+    chain: 
+      enabled: true
+ 
+    
+ 
+server:
+  port: 8301
+
+
+
+eureka: 
+ client:
+  register-with-eureka: true
+      fetchRegistry: true
+  service-url:
+    defaultZone: http://localhost:8302/eureka/
+ instance: 
+   hostname: localhost
+definitions: 
+  none: 

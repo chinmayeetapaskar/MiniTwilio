@@ -1,0 +1,16 @@
+package com.twilio.MailManagement.mailmanagementservice;
+
+import org.springframework.boot.SpringApplication;
+
+
+
+//@EnableEurekaClient
+@SpringBootApplication
+public class MailmanagementServiceApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(MailmanagementServiceApplication.class, args);
+	}
+
+}
+

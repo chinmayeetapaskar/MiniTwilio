@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ASCII"?>
 <application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:advanced="http://www.eclipse.org/ui/2010/UIModel/application/ui/advanced" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_lzmLARDVEemMVahZG67v0w" elementId="org.eclipse.e4.legacy.ide.application" contributorURI="platform:/plugin/org.eclipse.platform" selectedElement="_lzmLAhDVEemMVahZG67v0w" bindingContexts="_lzmyEBDVEemMVahZG67v0w">
-  <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;workbench>&#xD;&#xA;&lt;mruList>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.m2e.editor.MavenPomEditor&quot; name=&quot;pom.xml&quot; tooltip=&quot;eureka-service/pom.xml&quot;>&#xD;&#xA;&lt;persistable path=&quot;/eureka-service/pom.xml&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.springframework.ide.eclipse.boot.properties.editor.yaml.SpringYamlEditor&quot; name=&quot;application.yml&quot; tooltip=&quot;eureka-service/src/main/resources/application.yml&quot;>&#xD;&#xA;&lt;persistable path=&quot;/eureka-service/src/main/resources/application.yml&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;EurekaServiceApplication.java&quot; tooltip=&quot;eureka-service/src/main/java/com/twilio/Mail/eurekaservice/EurekaServiceApplication.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/eureka-service/src/main/java/com/twilio/Mail/eurekaservice/EurekaServiceApplication.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.springframework.ide.eclipse.PropertiesFileEditor&quot; name=&quot;application.properties&quot; tooltip=&quot;eureka-service/src/main/resources/application.properties&quot;>&#xD;&#xA;&lt;persistable path=&quot;/eureka-service/src/main/resources/application.properties&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;EurekaServiceApplicationTests.java&quot; tooltip=&quot;eureka-service/src/test/java/com/twilio/Mail/eurekaservice/EurekaServiceApplicationTests.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/eureka-service/src/test/java/com/twilio/Mail/eurekaservice/EurekaServiceApplicationTests.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.springsource.ide.eclipse.dashboard.ui.dashboard.elementFactory&quot; id=&quot;org.springsource.ide.eclipse.commons.gettingstarted.dashboard.WelcomeDashboard&quot; name=&quot;Dashboard&quot; tooltip=&quot;Dashboard&quot;>&#xD;&#xA;&lt;persistable openDashboard=&quot;true&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;/mruList>&#xD;&#xA;&lt;/workbench>"/>
+  <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;workbench>&#xD;&#xA;&lt;mruList>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.springframework.ide.eclipse.boot.properties.editor.yaml.SpringYamlEditor&quot; name=&quot;application.yml&quot; tooltip=&quot;eureka-service/src/main/resources/application.yml&quot;>&#xD;&#xA;&lt;persistable path=&quot;/eureka-service/src/main/resources/application.yml&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.springframework.ide.eclipse.PropertiesFileEditor&quot; name=&quot;application.properties&quot; tooltip=&quot;eureka-service/src/main/resources/application.properties&quot;>&#xD;&#xA;&lt;persistable path=&quot;/eureka-service/src/main/resources/application.properties&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.m2e.editor.MavenPomEditor&quot; name=&quot;pom.xml&quot; tooltip=&quot;eureka-service/pom.xml&quot;>&#xD;&#xA;&lt;persistable path=&quot;/eureka-service/pom.xml&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;EurekaServiceApplication.java&quot; tooltip=&quot;eureka-service/src/main/java/com/twilio/Mail/eurekaservice/EurekaServiceApplication.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/eureka-service/src/main/java/com/twilio/Mail/eurekaservice/EurekaServiceApplication.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;EurekaServiceApplicationTests.java&quot; tooltip=&quot;eureka-service/src/test/java/com/twilio/Mail/eurekaservice/EurekaServiceApplicationTests.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/eureka-service/src/test/java/com/twilio/Mail/eurekaservice/EurekaServiceApplicationTests.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.springsource.ide.eclipse.dashboard.ui.dashboard.elementFactory&quot; id=&quot;org.springsource.ide.eclipse.commons.gettingstarted.dashboard.WelcomeDashboard&quot; name=&quot;Dashboard&quot; tooltip=&quot;Dashboard&quot;>&#xD;&#xA;&lt;persistable openDashboard=&quot;true&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;/mruList>&#xD;&#xA;&lt;/workbench>"/>
   <tags>activeSchemeId:org.eclipse.ui.defaultAcceleratorConfiguration</tags>
   <tags>ModelMigrationProcessor.001</tags>
   <children xsi:type="basic:TrimmedWindow" xmi:id="_lzmLAhDVEemMVahZG67v0w" elementId="IDEWindow" contributorURI="platform:/plugin/org.eclipse.platform" selectedElement="_pIxXEhDVEemMVahZG67v0w" label="%trimmedwindow.label.eclipseSDK" x="903" y="0" width="1024" height="1050">
@@ -125,9 +125,10 @@
               </children>
             </children>
             <children xsi:type="basic:PartSashContainer" xmi:id="_qHAg-hDVEemMVahZG67v0w" containerData="8279" selectedElement="_qHAg-xDVEemMVahZG67v0w" horizontal="true">
-              <children xsi:type="basic:PartSashContainer" xmi:id="_qHAg-xDVEemMVahZG67v0w" containerData="7500" selectedElement="_qHAg_BDVEemMVahZG67v0w">
-                <children xsi:type="advanced:Placeholder" xmi:id="_qHAg_BDVEemMVahZG67v0w" elementId="org.eclipse.ui.editorss" containerData="7964" ref="_qGKzcBDVEemMVahZG67v0w"/>
-                <children xsi:type="basic:PartStack" xmi:id="_qHAg_RDVEemMVahZG67v0w" elementId="bottom" containerData="2036" selectedElement="_qHAg_hDVEemMVahZG67v0w">
+              <children xsi:type="basic:PartSashContainer" xmi:id="_qHAg-xDVEemMVahZG67v0w" containerData="7500" selectedElement="_qHAg_RDVEemMVahZG67v0w">
+                <children xsi:type="advanced:Placeholder" xmi:id="_qHAg_BDVEemMVahZG67v0w" elementId="org.eclipse.ui.editorss" containerData="5378" ref="_qGKzcBDVEemMVahZG67v0w"/>
+                <children xsi:type="basic:PartStack" xmi:id="_qHAg_RDVEemMVahZG67v0w" elementId="bottom" containerData="4622" selectedElement="_qHAg_hDVEemMVahZG67v0w">
+                  <tags>active</tags>
                   <children xsi:type="advanced:Placeholder" xmi:id="_qHAg_hDVEemMVahZG67v0w" elementId="org.eclipse.ui.console.ConsoleView" ref="_qGzFkRDVEemMVahZG67v0w" closeable="true">
                     <tags>View</tags>
                     <tags>categoryTag:General</tags>
@@ -174,7 +175,7 @@
                   </children>
                 </children>
               </children>
-              <children xsi:type="basic:PartSashContainer" xmi:id="_qHAhCRDVEemMVahZG67v0w" containerData="2500">
+              <children xsi:type="basic:PartSashContainer" xmi:id="_qHAhCRDVEemMVahZG67v0w" containerData="2500" selectedElement="_qHAhDRDVEemMVahZG67v0w">
                 <children xsi:type="basic:PartStack" xmi:id="_qHAhChDVEemMVahZG67v0w" elementId="middleright" containerData="5000" selectedElement="_qHAhCxDVEemMVahZG67v0w">
                   <children xsi:type="advanced:Placeholder" xmi:id="_qHAhCxDVEemMVahZG67v0w" elementId="org.eclipse.ui.views.ContentOutline" ref="_qGyegBDVEemMVahZG67v0w" closeable="true">
                     <tags>View</tags>
@@ -233,7 +234,6 @@
       <children xsi:type="basic:PartStack" xmi:id="_qGKzcRDVEemMVahZG67v0w" elementId="org.eclipse.e4.primaryDataStack" selectedElement="_An0DgBEaEemhcv307FTZ4g">
         <tags>org.eclipse.e4.primaryDataStack</tags>
         <tags>EditorStack</tags>
-        <tags>active</tags>
         <children xsi:type="basic:Part" xmi:id="_RoXLUBDWEemMVahZG67v0w" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="EurekaServiceApplication.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.png" closeable="true">
           <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;EurekaServiceApplication.java&quot; partName=&quot;EurekaServiceApplication.java&quot; title=&quot;EurekaServiceApplication.java&quot; tooltip=&quot;eureka-service/src/main/java/com/twilio/Mail/eurekaservice/EurekaServiceApplication.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/eureka-service/src/main/java/com/twilio/Mail/eurekaservice/EurekaServiceApplication.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;433&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
@@ -247,7 +247,7 @@
           <tags>removeOnHide</tags>
         </children>
         <children xsi:type="basic:Part" xmi:id="_RAsy8BEZEemhcv307FTZ4g" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="application.yml" iconURI="platform:/plugin/org.springframework.ide.eclipse.boot.properties.editor.yaml/icons/spring_yml.png" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.springframework.ide.eclipse.boot.properties.editor.yaml.SpringYamlEditor&quot; name=&quot;application.yml&quot; partName=&quot;application.yml&quot; title=&quot;application.yml&quot; tooltip=&quot;eureka-service/src/main/resources/application.yml&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/eureka-service/src/main/resources/application.yml&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;225&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.springframework.ide.eclipse.boot.properties.editor.yaml.SpringYamlEditor&quot; name=&quot;application.yml&quot; partName=&quot;application.yml&quot; title=&quot;application.yml&quot; tooltip=&quot;eureka-service/src/main/resources/application.yml&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/eureka-service/src/main/resources/application.yml&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;151&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
           <tags>org.springframework.ide.eclipse.boot.properties.editor.yaml.SpringYamlEditor</tags>
           <tags>removeOnHide</tags>
@@ -257,8 +257,12 @@
           <tags>Editor</tags>
           <tags>org.eclipse.m2e.editor.MavenPomEditor</tags>
           <tags>removeOnHide</tags>
-          <tags>active</tags>
-          <tags>activeOnClose</tags>
+        </children>
+        <children xsi:type="basic:Part" xmi:id="_X6WQwG0uEemeh7t1xgEqtQ" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="application.properties" iconURI="platform:/plugin/org.springframework.ide.eclipse.boot.properties.editor/icons/spring_obj.gif" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.springframework.ide.eclipse.PropertiesFileEditor&quot; name=&quot;application.properties&quot; partName=&quot;application.properties&quot; title=&quot;application.properties&quot; tooltip=&quot;eureka-service/src/main/resources/application.properties&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/eureka-service/src/main/resources/application.properties&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;0&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <tags>Editor</tags>
+          <tags>org.springframework.ide.eclipse.PropertiesFileEditor</tags>
+          <tags>removeOnHide</tags>
         </children>
       </children>
     </sharedElements>
@@ -340,6 +344,8 @@
       <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;view/>"/>
       <tags>View</tags>
       <tags>categoryTag:General</tags>
+      <tags>active</tags>
+      <tags>activeOnClose</tags>
       <menus xmi:id="_sp1qEBDVEemMVahZG67v0w" elementId="org.eclipse.ui.console.ConsoleView">
         <tags>ViewMenu</tags>
         <tags>menuContribution:menu</tags>
@@ -419,7 +425,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_pKIB8BDVEemMVahZG67v0w" elementId="org.eclipse.ui.workbench.file">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_qtSX0BEXEemhcv307FTZ4g" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_l2GFgxDVEemMVahZG67v0w"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_tpH-YG3_EemR_Jm6-HR56w" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_l2GFgxDVEemMVahZG67v0w"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_pKIB8RDVEemMVahZG67v0w" elementId="group.edit" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -453,7 +459,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_pKIpBRDVEemMVahZG67v0w" elementId="org.eclipse.ui.workbench.navigate">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_qtZFgBEXEemhcv307FTZ4g" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_l2FejRDVEemMVahZG67v0w"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_tpdVkG3_EemR_Jm6-HR56w" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_l2FejRDVEemMVahZG67v0w"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_pKIpBhDVEemMVahZG67v0w" elementId="group.editor" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -3064,7 +3070,7 @@
   <addons xmi:id="_lzmyHxDVEemMVahZG67v0w" elementId="MinMax Addon" contributorURI="platform:/plugin/org.eclipse.platform" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.minmax.MinMaxAddon"/>
   <addons xmi:id="_lzmyIBDVEemMVahZG67v0w" elementId="org.eclipse.ui.workbench.addon.0" contributorURI="platform:/plugin/org.eclipse.platform" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.HandlerProcessingAddon"/>
   <addons xmi:id="_lz1bkBDVEemMVahZG67v0w" elementId="SplitterAddon" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.splitteraddon.SplitterAddon"/>
-  <addons xmi:id="_l53sIREXEemhcv307FTZ4g" elementId="org.eclipse.ui.ide.addon.0" contributionURI="bundleclass://org.eclipse.ui.ide/org.eclipse.ui.internal.ide.addons.SaveAllDirtyPartsAddon"/>
+  <addons xmi:id="_gBttgG3_EemR_Jm6-HR56w" elementId="org.eclipse.ui.ide.addon.0" contributionURI="bundleclass://org.eclipse.ui.ide/org.eclipse.ui.internal.ide.addons.SaveAllDirtyPartsAddon"/>
   <addons xmi:id="_dz0JgGOlEeSMMaPQU2nlzw" elementId="org.eclipse.ui.ide.application.addon.0" contributorURI="platform:/plugin/org.eclipse.ui.ide.application" contributionURI="bundleclass://org.eclipse.ui.ide.application/org.eclipse.ui.internal.ide.application.addons.ModelCleanupAddon"/>
   <categories xmi:id="_l17GQBDVEemMVahZG67v0w" elementId="org.eclipse.ui.category.edit" name="Edit"/>
   <categories xmi:id="_l17GQRDVEemMVahZG67v0w" elementId="org.eclipse.mylyn.wikitext.ui.editor.category" name="WikiText Markup Editing Commands" description="commands for editing lightweight markup"/>

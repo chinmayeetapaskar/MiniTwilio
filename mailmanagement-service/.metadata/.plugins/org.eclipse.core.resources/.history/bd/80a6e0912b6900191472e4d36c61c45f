@@ -1,0 +1,5 @@
+package com.twilio.MailManagement.mailmanagementservice.config;
+
+public class Discount {
+
+}

@@ -1,0 +1,18 @@
+management:
+  security:
+    enabled: true
+  
+  
+spring:
+  application: 
+   name: authentication-service
+  resources:
+    chain: 
+      enabled: true
+ 
+    
+ 
+server:
+  port: 8301
+
+

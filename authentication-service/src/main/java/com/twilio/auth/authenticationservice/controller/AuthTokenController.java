@@ -6,20 +6,16 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import com.twilio.auth.authenticationservice.security.JwtGenerator;
+
 @RestController
-@RequestMapping("/rest/db/authToken")
+@RequestMapping("/rest/authToken")
 public class AuthTokenController {
 
-	@GetMapping("/hello")
-	public String getAuthToken() {
+	@GetMapping("/getToken/{username}")
+	public String getAuthToken(@PathVariable("username") String userName) {
 		//String authToken = null;
 		return "Hello world";
-		
-	}
-	
-	@PostMapping("/addAuthToken")
-	public String insertAuthToken() {
-		return null;
 		
 	}
 }

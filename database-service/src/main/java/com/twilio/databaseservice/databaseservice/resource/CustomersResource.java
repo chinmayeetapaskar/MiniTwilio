@@ -13,7 +13,7 @@ import com.twilio.databaseservice.databaseservice.document.Customers;
 import com.twilio.databaseservice.databaseservice.repository.CustomersRepository;
 
 @RestController
-@RequestMapping("/rest/db")
+@RequestMapping("/rest/dbService")
 public class CustomersResource {
 
 
@@ -38,8 +38,8 @@ private CustomersRepository customerRepository;
 	}
 	
 	@GetMapping("/{username}")
-	public List<String> getClient(@PathVariable("username") String username) {
+	public Customers getClient(@PathVariable("username") String username) {
 		Customers customer= this.customerRepository.findByUserName(username);
-		return customer.getClientEmailIds();
+		return customer;
 	}
 }

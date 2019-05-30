@@ -22,6 +22,12 @@ public class Customers {
 	@NotNull
 	@Min(8)
 	private List<String> clientEmailIds;
+	
+	public Customers() {
+	}
+	public Customers(String userName) {
+		this.userName = userName;
+	}
 	public Customers(String authToken, String userName, String emaiId, String password, List<String> clientEmailIds) {
 		super();
 		this.authToken = authToken;

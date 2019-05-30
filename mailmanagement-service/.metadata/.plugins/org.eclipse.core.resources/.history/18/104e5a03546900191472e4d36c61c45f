@@ -1,0 +1,98 @@
+package com.twilio.MailManagement.mailmanagementservice.resource;
+
+import java.net.URI;
+import java.util.List;
+
+import javax.validation.ValidationException;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Bean;
+import org.springframework.core.ParameterizedTypeReference;
+import org.springframework.http.HttpEntity;
+import org.springframework.http.HttpHeaders;
+import org.springframework.http.HttpMethod;
+import org.springframework.http.ResponseEntity;
+import org.springframework.mail.SimpleMailMessage;
+import org.springframework.mail.javamail.JavaMailSenderImpl;
+import org.springframework.validation.BindingResult;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.client.RestTemplate;
+
+import com.twilio.MailManagement.mailmanagementservice.model.Discount;
+import com.twilio.MailManagement.mailmanagementservice.config.EmailConfig;
+import com.twilio.MailManagement.mailmanagementservice.model.Customers;
+
+
+
+@RestController
+@RequestMapping("/rest/sendmail")
+public class MailManagementResource {
+
+	@Autowired
+	private EmailConfig emailcfg;
+	
+	private Customers customer;
+	
+	public MailManagementResource() {
+		this.emailcfg=emailcfg;
+	}
+	@Autowired
+	RestTemplate restTemplate;
+	
+	
+	@GetMapping("/{username}")
+	public Customers getClientList(@PathVariable("username") String userName){
+		ResponseEntity<Customers> clientResponse = restTemplate.exchange("http://localhost:8080/rest/customers/List/" + userName,HttpMethod.GET,
+				null, Customers.class);
+		
+		Customers sendlist=new Customers(clientResponse.getBody().getAuthToken(),clientResponse.getBody().getEmaiId(),clientResponse.getBody().getUserName(),clientResponse.getBody().getPassword(),clientResponse.getBody().getClientEmailIds());
+		return sendlist;
+		
+	}
+	
+	
+	
+	/*@GetMapping("/{username}")
+	public String getAuthToken(@PathVariable("username") String userName){
+	
+		String authToken= restTemplate.getForObject(userName, String.class);
+		return authToken;
+	}*/
+	
+	
+	
+	@PostMapping
+	public void senddiscount(@RequestBody(required=false)Customers customer,BindingResult bindingResult) {
+		if(bindingResult.hasErrors()) {
+			throw new ValidationException("Discount is not valid");
+		}
+		
+		
+		//mail sender 
+		
+		JavaMailSenderImpl mailSender = new JavaMailSenderImpl();
+		mailSender.setHost(this.emailcfg.getHost());
+		mailSender.setPort(this.emailcfg.getPort());
+		mailSender.setUsername(this.emailcfg.getUsername());
+		mailSender.setPassword(this.emailcfg.getPassword());
+		
+		
+		for(String email :customer.getClientEmailIds() ) {
+		//email instance
+		SimpleMailMessage mailMessage = new SimpleMailMessage();
+	
+		mailMessage.setFrom(customer.getEmaiId());
+		mailMessage.setTo(email);
+		mailMessage.setSubject("Discount 20% on all rides" + customer.getUserName());
+		mailMessage.setText("Enjoy your discount");
+		//send Mails
+				mailSender.send(mailMessage);
+		}
+		
+	}
+}

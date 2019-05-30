@@ -5,6 +5,16 @@ public class JwtUser {
 	private long id;
 	private String userName;
 	private String role;
+	
+	public JwtUser() {
+	}
+
+	public JwtUser(long id, String userName, String role) {
+		super();
+		this.id = id;
+		this.userName = userName;
+		this.role = role;
+	}
 
 	public void setUserName(String userName) {
 		this.userName =userName;

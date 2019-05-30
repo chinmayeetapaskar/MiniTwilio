@@ -10,6 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.twilio.auth.authenticationservice.model.JwtUser;
 import com.twilio.auth.authenticationservice.security.JwtGenerator;
 
+
 @RestController
 @RequestMapping("/token")
 public class TokenController {
@@ -20,10 +21,9 @@ public class TokenController {
 		this.jwtGenerator = jwtGenerator;
 	}
 
-	@PostMapping
-	public String generate(@RequestBody final JwtUser jwtUser) {
-	
-		
+	@GetMapping("/gettoken/{username}")
+	public String generate(@PathVariable("username") String userName) {
+		final JwtUser jwtUser= new JwtUser(111,userName,"admin");
 		return jwtGenerator.generate(jwtUser);
 	}
 	
