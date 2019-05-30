@@ -43,15 +43,15 @@ public class MailManagementResource {
 	
 	@GetMapping("/gettoken/{username}")
 	public String getauthToken(@PathVariable("username") String userName) {
-		String usercompany=restTemplate.getForObject("http://rest/dbService/gettoken/" + userName, String.class);
+		String usercompany=restTemplate.getForObject("http://rest/database-service/gettoken/" + userName, String.class);
 		return usercompany;
 	}
 	
 	@PostMapping("/add")
 	public String insert(@RequestBody Customers customer) {
-		String authToken=restTemplate.getForObject("http://token/gettoken/"+customer.getUserName(), String.class);
+		String authToken=restTemplate.getForObject("http://autentication-service/token/gettoken/"+customer.getUserName(), String.class);
 		customer.setAuthToken(authToken);
-		String result=restTemplate.postForObject("http://rest/dbService/add/", new Customers(customer.getAuthToken(),customer.getUserName(),customer.getEmaiId(),customer.getPassword(),customer.getClientEmailIds()),String.class);
+		String result=restTemplate.postForObject("http://rest/database-service/add/", new Customers(customer.getAuthToken(),customer.getUserName(),customer.getEmaiId(),customer.getPassword(),customer.getClientEmailIds()),String.class);
 		return result;
 	}
 	
@@ -59,9 +59,9 @@ public class MailManagementResource {
 	
 	@GetMapping("/{username}")
 	public Customers getClientList(@PathVariable("username") String userName){
-		ResponseEntity<Customers> clientResponse = restTemplate.exchange("http://rest/dbService/" + userName,HttpMethod.GET,
+		ResponseEntity<Customers> clientResponse = restTemplate.exchange("http://rest/database-service/" + userName,HttpMethod.GET,
 				null, Customers.class);
-		
+	-
 		customer=new Customers(clientResponse.getBody().getAuthToken(),clientResponse.getBody().getEmaiId(),clientResponse.getBody().getUserName(),clientResponse.getBody().getPassword(),clientResponse.getBody().getClientEmailIds());
 		return customer;
 		
