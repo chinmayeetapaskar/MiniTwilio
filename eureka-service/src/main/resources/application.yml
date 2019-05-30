@@ -13,3 +13,15 @@ eureka:
     service-url:
       defaultZone: http://localhost:8302/eureka
 
+zuul:
+  prefix: /rest
+  routes: 
+    database-service: 
+      path: /database-service/**
+      url: http://localhost:8091
+    authentication-service: 
+      path: /authentication-service/**
+      url: http://localhost:8084
+    mailmanagement-service: 
+      path: /mailmanagement-service/**
+      url: http://localhost:8301
